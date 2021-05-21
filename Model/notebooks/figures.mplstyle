@@ -1,0 +1,11 @@
+axes.titlesize: 16
+font.size: 16
+axes.labelsize: 16
+legend.fontsize: 16
+xtick.labelsize: 16
+ytick.labelsize: 16
+lines.linewidth: 2
+figure.dpi: 72
+grid.color: 888888
+grid.linestyle: dashed
+grid.linewidth: 0.5

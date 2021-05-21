@@ -1,0 +1,134 @@
+{
+  "stringTable": {
+    "0": "/Users/neilperry/Desktop/android_c_elgamal_measurements/encrypt/.cxx/cmake/release/x86_64",
+    "1": "--target=x86_64-none-linux-android21 --gcc-toolchain=/Users/neilperry/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/neilperry/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dnative_lib_EXPORTS -I/Users/neilperry/Desktop/android_c_elgamal_measurements/encrypt/src/main/cpp/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -std=c++11 -frtti -fexceptions -std=gnu++11 -O2 -DNDEBUG -fPIC",
+    "2": "--target=x86_64-none-linux-android21 --gcc-toolchain=/Users/neilperry/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/neilperry/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dnative_lib_EXPORTS -I/Users/neilperry/Desktop/android_c_elgamal_measurements/encrypt/src/main/cpp/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -O2 -DNDEBUG -fPIC"
+  },
+  "buildFiles": [
+    "/Users/neilperry/Library/Android/sdk/ndk/21.0.6113669/build/cmake/android.toolchain.cmake",
+    "/Users/neilperry/Library/Android/sdk/ndk/21.0.6113669/build/cmake/platforms.cmake",
+    "/Users/neilperry/Desktop/android_c_elgamal_measurements/encrypt/src/main/cpp/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/Users/neilperry/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/neilperry/Desktop/android_c_elgamal_measurements/encrypt/.cxx/cmake/release/x86_64\" clean"
+  ],
+  "buildTargetsCommand": "/Users/neilperry/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/Users/neilperry/Desktop/android_c_elgamal_measurements/encrypt/.cxx/cmake/release/x86_64\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "native-lib-Release-x86_64": {
+      "buildCommand": "/Users/neilperry/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/neilperry/Desktop/android_c_elgamal_measurements/encrypt/.cxx/cmake/release/x86_64\" native-lib",
+      "buildType": "release",
+      "toolchain": "2499157952",
+      "abi": "x86_64",
+      "artifactName": "native-lib",
+      "files": [
+        {
+          "src": "/Users/neilperry/Desktop/android_c_elgamal_measurements/encrypt/src/main/cpp/crtecelgamal.c",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/neilperry/Desktop/android_c_elgamal_measurements/encrypt/src/main/cpp/ecelgamal.c",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/neilperry/Desktop/android_c_elgamal_measurements/encrypt/src/main/cpp/native-lib.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/neilperry/Desktop/android_c_elgamal_measurements/encrypt/src/main/cpp/rsa_lib.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/neilperry/Desktop/android_c_elgamal_measurements/encrypt/src/main/cpp/utils.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/neilperry/Desktop/android_c_elgamal_measurements/encrypt/src/main/cpp/aes/aes_wrapper.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/neilperry/Desktop/android_c_elgamal_measurements/encrypt/src/main/cpp/aes/base64.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/neilperry/Desktop/android_c_elgamal_measurements/encrypt/src/main/cpp/aes/test_aes.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/neilperry/Desktop/android_c_elgamal_measurements/encrypt/src/main/cpp/b64/b64.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/neilperry/Desktop/android_c_elgamal_measurements/encrypt/src/main/cpp/b64/test_b64.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/neilperry/Desktop/android_c_elgamal_measurements/encrypt/src/main/cpp/rsa/rsa.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/neilperry/Desktop/android_c_elgamal_measurements/encrypt/src/main/cpp/rsa/test_rsa.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [
+        {
+          "header": "/Users/neilperry/Desktop/android_c_elgamal_measurements/encrypt/src/main/cpp/native-lib.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/neilperry/Desktop/android_c_elgamal_measurements/encrypt/src/main/cpp/rsa_lib.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/neilperry/Desktop/android_c_elgamal_measurements/encrypt/src/main/cpp/utils.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/neilperry/Desktop/android_c_elgamal_measurements/encrypt/src/main/cpp/common.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/neilperry/Desktop/android_c_elgamal_measurements/encrypt/src/main/cpp/crtecelgamal.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/neilperry/Desktop/android_c_elgamal_measurements/encrypt/src/main/cpp/ecelgamal.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/neilperry/Desktop/android_c_elgamal_measurements/encrypt/src/main/cpp/uthash.h",
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "output": "/Users/neilperry/Desktop/android_c_elgamal_measurements/encrypt/build/intermediates/cmake/release/obj/x86_64/libnative-lib.so",
+      "runtimeFiles": [
+        "/Users/neilperry/Desktop/android_c_elgamal_measurements/encrypt/src/main/cpp/libs/x86_64/libssl.so",
+        "/Users/neilperry/Desktop/android_c_elgamal_measurements/encrypt/src/main/cpp/libs/x86_64/libcrypto.so"
+      ]
+    }
+  },
+  "toolchains": {
+    "2499157952": {
+      "cCompilerExecutable": "/Users/neilperry/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+      "cppCompilerExecutable": "/Users/neilperry/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

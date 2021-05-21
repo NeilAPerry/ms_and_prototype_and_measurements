@@ -1,0 +1,73 @@
+[
+{
+  "directory": "/Users/neilperry/Desktop/android_c_elgamal_measurements/encrypt/.cxx/cmake/release/armeabi-v7a",
+  "command": "/Users/neilperry/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/neilperry/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/neilperry/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dnative_lib_EXPORTS -I/Users/neilperry/Desktop/android_c_elgamal_measurements/encrypt/src/main/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -std=gnu++11 -Oz -DNDEBUG  -fPIC   -o CMakeFiles/native-lib.dir/native-lib.cpp.o -c /Users/neilperry/Desktop/android_c_elgamal_measurements/encrypt/src/main/cpp/native-lib.cpp",
+  "file": "/Users/neilperry/Desktop/android_c_elgamal_measurements/encrypt/src/main/cpp/native-lib.cpp"
+},
+
+{
+  "directory": "/Users/neilperry/Desktop/android_c_elgamal_measurements/encrypt/.cxx/cmake/release/armeabi-v7a",
+  "command": "/Users/neilperry/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/neilperry/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/neilperry/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dnative_lib_EXPORTS -I/Users/neilperry/Desktop/android_c_elgamal_measurements/encrypt/src/main/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -std=gnu++11 -Oz -DNDEBUG  -fPIC   -o CMakeFiles/native-lib.dir/rsa_lib.cpp.o -c /Users/neilperry/Desktop/android_c_elgamal_measurements/encrypt/src/main/cpp/rsa_lib.cpp",
+  "file": "/Users/neilperry/Desktop/android_c_elgamal_measurements/encrypt/src/main/cpp/rsa_lib.cpp"
+},
+
+{
+  "directory": "/Users/neilperry/Desktop/android_c_elgamal_measurements/encrypt/.cxx/cmake/release/armeabi-v7a",
+  "command": "/Users/neilperry/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/neilperry/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/neilperry/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dnative_lib_EXPORTS -I/Users/neilperry/Desktop/android_c_elgamal_measurements/encrypt/src/main/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -std=gnu++11 -Oz -DNDEBUG  -fPIC   -o CMakeFiles/native-lib.dir/utils.cpp.o -c /Users/neilperry/Desktop/android_c_elgamal_measurements/encrypt/src/main/cpp/utils.cpp",
+  "file": "/Users/neilperry/Desktop/android_c_elgamal_measurements/encrypt/src/main/cpp/utils.cpp"
+},
+
+{
+  "directory": "/Users/neilperry/Desktop/android_c_elgamal_measurements/encrypt/.cxx/cmake/release/armeabi-v7a",
+  "command": "/Users/neilperry/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/neilperry/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/neilperry/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dnative_lib_EXPORTS -I/Users/neilperry/Desktop/android_c_elgamal_measurements/encrypt/src/main/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -Oz -DNDEBUG  -fPIC   -o CMakeFiles/native-lib.dir/crtecelgamal.c.o   -c /Users/neilperry/Desktop/android_c_elgamal_measurements/encrypt/src/main/cpp/crtecelgamal.c",
+  "file": "/Users/neilperry/Desktop/android_c_elgamal_measurements/encrypt/src/main/cpp/crtecelgamal.c"
+},
+
+{
+  "directory": "/Users/neilperry/Desktop/android_c_elgamal_measurements/encrypt/.cxx/cmake/release/armeabi-v7a",
+  "command": "/Users/neilperry/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/neilperry/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/neilperry/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dnative_lib_EXPORTS -I/Users/neilperry/Desktop/android_c_elgamal_measurements/encrypt/src/main/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -Oz -DNDEBUG  -fPIC   -o CMakeFiles/native-lib.dir/ecelgamal.c.o   -c /Users/neilperry/Desktop/android_c_elgamal_measurements/encrypt/src/main/cpp/ecelgamal.c",
+  "file": "/Users/neilperry/Desktop/android_c_elgamal_measurements/encrypt/src/main/cpp/ecelgamal.c"
+},
+
+{
+  "directory": "/Users/neilperry/Desktop/android_c_elgamal_measurements/encrypt/.cxx/cmake/release/armeabi-v7a",
+  "command": "/Users/neilperry/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/neilperry/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/neilperry/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dnative_lib_EXPORTS -I/Users/neilperry/Desktop/android_c_elgamal_measurements/encrypt/src/main/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -std=gnu++11 -Oz -DNDEBUG  -fPIC   -o CMakeFiles/native-lib.dir/aes/aes_wrapper.cpp.o -c /Users/neilperry/Desktop/android_c_elgamal_measurements/encrypt/src/main/cpp/aes/aes_wrapper.cpp",
+  "file": "/Users/neilperry/Desktop/android_c_elgamal_measurements/encrypt/src/main/cpp/aes/aes_wrapper.cpp"
+},
+
+{
+  "directory": "/Users/neilperry/Desktop/android_c_elgamal_measurements/encrypt/.cxx/cmake/release/armeabi-v7a",
+  "command": "/Users/neilperry/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/neilperry/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/neilperry/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dnative_lib_EXPORTS -I/Users/neilperry/Desktop/android_c_elgamal_measurements/encrypt/src/main/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -std=gnu++11 -Oz -DNDEBUG  -fPIC   -o CMakeFiles/native-lib.dir/aes/base64.cpp.o -c /Users/neilperry/Desktop/android_c_elgamal_measurements/encrypt/src/main/cpp/aes/base64.cpp",
+  "file": "/Users/neilperry/Desktop/android_c_elgamal_measurements/encrypt/src/main/cpp/aes/base64.cpp"
+},
+
+{
+  "directory": "/Users/neilperry/Desktop/android_c_elgamal_measurements/encrypt/.cxx/cmake/release/armeabi-v7a",
+  "command": "/Users/neilperry/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/neilperry/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/neilperry/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dnative_lib_EXPORTS -I/Users/neilperry/Desktop/android_c_elgamal_measurements/encrypt/src/main/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -std=gnu++11 -Oz -DNDEBUG  -fPIC   -o CMakeFiles/native-lib.dir/aes/test_aes.cpp.o -c /Users/neilperry/Desktop/android_c_elgamal_measurements/encrypt/src/main/cpp/aes/test_aes.cpp",
+  "file": "/Users/neilperry/Desktop/android_c_elgamal_measurements/encrypt/src/main/cpp/aes/test_aes.cpp"
+},
+
+{
+  "directory": "/Users/neilperry/Desktop/android_c_elgamal_measurements/encrypt/.cxx/cmake/release/armeabi-v7a",
+  "command": "/Users/neilperry/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/neilperry/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/neilperry/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dnative_lib_EXPORTS -I/Users/neilperry/Desktop/android_c_elgamal_measurements/encrypt/src/main/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -std=gnu++11 -Oz -DNDEBUG  -fPIC   -o CMakeFiles/native-lib.dir/b64/b64.cpp.o -c /Users/neilperry/Desktop/android_c_elgamal_measurements/encrypt/src/main/cpp/b64/b64.cpp",
+  "file": "/Users/neilperry/Desktop/android_c_elgamal_measurements/encrypt/src/main/cpp/b64/b64.cpp"
+},
+
+{
+  "directory": "/Users/neilperry/Desktop/android_c_elgamal_measurements/encrypt/.cxx/cmake/release/armeabi-v7a",
+  "command": "/Users/neilperry/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/neilperry/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/neilperry/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dnative_lib_EXPORTS -I/Users/neilperry/Desktop/android_c_elgamal_measurements/encrypt/src/main/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -std=gnu++11 -Oz -DNDEBUG  -fPIC   -o CMakeFiles/native-lib.dir/b64/test_b64.cpp.o -c /Users/neilperry/Desktop/android_c_elgamal_measurements/encrypt/src/main/cpp/b64/test_b64.cpp",
+  "file": "/Users/neilperry/Desktop/android_c_elgamal_measurements/encrypt/src/main/cpp/b64/test_b64.cpp"
+},
+
+{
+  "directory": "/Users/neilperry/Desktop/android_c_elgamal_measurements/encrypt/.cxx/cmake/release/armeabi-v7a",
+  "command": "/Users/neilperry/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/neilperry/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/neilperry/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dnative_lib_EXPORTS -I/Users/neilperry/Desktop/android_c_elgamal_measurements/encrypt/src/main/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -std=gnu++11 -Oz -DNDEBUG  -fPIC   -o CMakeFiles/native-lib.dir/rsa/rsa.cpp.o -c /Users/neilperry/Desktop/android_c_elgamal_measurements/encrypt/src/main/cpp/rsa/rsa.cpp",
+  "file": "/Users/neilperry/Desktop/android_c_elgamal_measurements/encrypt/src/main/cpp/rsa/rsa.cpp"
+},
+
+{
+  "directory": "/Users/neilperry/Desktop/android_c_elgamal_measurements/encrypt/.cxx/cmake/release/armeabi-v7a",
+  "command": "/Users/neilperry/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/neilperry/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/neilperry/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dnative_lib_EXPORTS -I/Users/neilperry/Desktop/android_c_elgamal_measurements/encrypt/src/main/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -std=gnu++11 -Oz -DNDEBUG  -fPIC   -o CMakeFiles/native-lib.dir/rsa/test_rsa.cpp.o -c /Users/neilperry/Desktop/android_c_elgamal_measurements/encrypt/src/main/cpp/rsa/test_rsa.cpp",
+  "file": "/Users/neilperry/Desktop/android_c_elgamal_measurements/encrypt/src/main/cpp/rsa/test_rsa.cpp"
+}
+]

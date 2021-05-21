@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstFragment">
+
+    <TextView
+        android:id="@+id/textview_first"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_first_fragment"
+        tools:layout_editor_absoluteX="121dp"
+        tools:layout_editor_absoluteY="50dp" />
+
+    <Button
+        android:id="@+id/button_first"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/crypto"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.43"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textview_first"
+        app:layout_constraintVertical_bias="0.12" />
+
+    <Button
+        android:id="@+id/button_read_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/read"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.449"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button_first"
+        app:layout_constraintVertical_bias="0.026" />
+
+    <Button
+        android:id="@+id/button_advertise"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/advertise"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.452"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button_read_message"
+        app:layout_constraintVertical_bias="0.02" />
+
+    <Button
+        android:id="@+id/button_discover"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/discover"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.423"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button_advertise"
+        app:layout_constraintVertical_bias="0.026" />
+
+    <Button
+        android:id="@+id/button_pfelgamal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pfelgamal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.455"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button_discover"
+        app:layout_constraintVertical_bias="0.028" />
+
+    <Button
+        android:id="@+id/button_ecelgamal_bc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ecelgamal_bc"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button_pfelgamal"
+        app:layout_constraintVertical_bias="0.092" />
+
+    <Button
+        android:id="@+id/button_ecelgamal_n"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ecelgamal_n"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.424"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button_ecelgamal_bc"
+        app:layout_constraintVertical_bias="0.08" />
+
+    <Button
+        android:id="@+id/button_ecelgamal_c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ecelgamal_c"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.442"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button_ecelgamal_n"
+        app:layout_constraintVertical_bias="0.232" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

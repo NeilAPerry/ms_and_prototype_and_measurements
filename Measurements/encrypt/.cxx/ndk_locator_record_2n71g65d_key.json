@@ -1,0 +1,10 @@
+{
+  "sdkFolder": "/Users/neilperry/Library/Android/sdk",
+  "sideBySideNdkFolderNames": [
+    "23.0.7196353",
+    "20.0.5594570",
+    "21.0.6113669",
+    "android-ndk-r14b",
+    "android-ndk-r13b"
+  ]
+}

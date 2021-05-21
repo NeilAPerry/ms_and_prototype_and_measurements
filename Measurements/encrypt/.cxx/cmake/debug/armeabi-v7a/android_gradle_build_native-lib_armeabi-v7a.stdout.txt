@@ -1,0 +1,38 @@
+ninja: Entering directory `/Users/neilperry/Desktop/android_c_elgamal_measurements/encrypt/.cxx/cmake/debug/armeabi-v7a'
+[1/13] Building C object CMakeFiles/native-lib.dir/crtecelgamal.c.o
+[2/13] Building C object CMakeFiles/native-lib.dir/ecelgamal.c.o
+/Users/neilperry/Desktop/android_c_elgamal_measurements/encrypt/src/main/cpp/ecelgamal.c:323:51: warning: shift count >= width of type [-Wshift-count-overflow]
+        solve_ecdlp_bsgs(table, &plaintext, M, 1L << MAX_BITS);
+                                                  ^  ~~~~~~~~
+/Users/neilperry/Desktop/android_c_elgamal_measurements/encrypt/src/main/cpp/ecelgamal.c:325:56: warning: shift count >= width of type [-Wshift-count-overflow]
+        solve_dlog_brute(init_group, M, &plaintext, 1L << MAX_BITS);
+                                                       ^  ~~~~~~~~
+2 warnings generated.
+[3/13] Building CXX object CMakeFiles/native-lib.dir/b64/b64.cpp.o
+[4/13] Building CXX object CMakeFiles/native-lib.dir/aes/base64.cpp.o
+[5/13] Building CXX object CMakeFiles/native-lib.dir/aes/aes_wrapper.cpp.o
+[6/13] Building CXX object CMakeFiles/native-lib.dir/utils.cpp.o
+[7/13] Building CXX object CMakeFiles/native-lib.dir/b64/test_b64.cpp.o
+[8/13] Building CXX object CMakeFiles/native-lib.dir/rsa/test_rsa.cpp.o
+[9/13] Building CXX object CMakeFiles/native-lib.dir/native-lib.cpp.o
+[10/13] Building CXX object CMakeFiles/native-lib.dir/rsa_lib.cpp.o
+/Users/neilperry/Desktop/android_c_elgamal_measurements/encrypt/src/main/cpp/rsa_lib.cpp:75:21: warning: use of function template name with no prior declaration in function call with explicit template arguments is a C++2a extension [-Wc++2a-extensions]
+    auto enc_time = duration_cast<std::chrono::nanoseconds>(t2-t1).count();
+                    ^
+/Users/neilperry/Desktop/android_c_elgamal_measurements/encrypt/src/main/cpp/rsa_lib.cpp:94:21: warning: use of function template name with no prior declaration in function call with explicit template arguments is a C++2a extension [-Wc++2a-extensions]
+    auto dec_time = duration_cast<std::chrono::nanoseconds>(t2-t1).count();
+                    ^
+/Users/neilperry/Desktop/android_c_elgamal_measurements/encrypt/src/main/cpp/rsa_lib.cpp:226:21: warning: use of function template name with no prior declaration in function call with explicit template arguments is a C++2a extension [-Wc++2a-extensions]
+    auto dec_time = duration_cast<std::chrono::nanoseconds>(t2-t1).count();
+                    ^
+3 warnings generated.
+[11/13] Building CXX object CMakeFiles/native-lib.dir/aes/test_aes.cpp.o
+/Users/neilperry/Desktop/android_c_elgamal_measurements/encrypt/src/main/cpp/aes/test_aes.cpp:110:21: warning: use of function template name with no prior declaration in function call with explicit template arguments is a C++2a extension [-Wc++2a-extensions]
+    auto enc_time = duration_cast<std::chrono::nanoseconds>(t2-t1).count();
+                    ^
+/Users/neilperry/Desktop/android_c_elgamal_measurements/encrypt/src/main/cpp/aes/test_aes.cpp:130:21: warning: use of function template name with no prior declaration in function call with explicit template arguments is a C++2a extension [-Wc++2a-extensions]
+    auto dec_time = duration_cast<std::chrono::nanoseconds>(t2-t1).count();
+                    ^
+2 warnings generated.
+[12/13] Building CXX object CMakeFiles/native-lib.dir/rsa/rsa.cpp.o
+[13/13] Linking CXX shared library /Users/neilperry/Desktop/android_c_elgamal_measurements/encrypt/build/intermediates/cmake/debug/obj/armeabi-v7a/libnative-lib.so

@@ -1,0 +1,14 @@
+# ninja log v5
+4	320	1620232077	CMakeFiles/native-lib.dir/crtecelgamal.c.o	6035c53f8ea2974a
+6	510	1620232077	CMakeFiles/native-lib.dir/ecelgamal.c.o	c62911021ae3e8e2
+11	511	1620232077	CMakeFiles/native-lib.dir/b64/b64.cpp.o	3df43291ba2a3cca
+8	562	1620232077	CMakeFiles/native-lib.dir/aes/base64.cpp.o	4695d511e20fb9bb
+7	702	1620232077	CMakeFiles/native-lib.dir/aes/aes_wrapper.cpp.o	7f0d7f007364dcf
+3	1063	1620232078	CMakeFiles/native-lib.dir/utils.cpp.o	73e46e75bf7a2857
+13	1527	1620232078	CMakeFiles/native-lib.dir/b64/test_b64.cpp.o	2494b4784a0bef3d
+15	1575	1620232078	CMakeFiles/native-lib.dir/rsa/test_rsa.cpp.o	82221778ea073fa5
+0	1764	1620232078	CMakeFiles/native-lib.dir/native-lib.cpp.o	ecd423893809cc82
+1	1902	1620232079	CMakeFiles/native-lib.dir/rsa_lib.cpp.o	dfbe44442d735a14
+10	1933	1620232079	CMakeFiles/native-lib.dir/aes/test_aes.cpp.o	8218a2af118fcf06
+14	2004	1620232079	CMakeFiles/native-lib.dir/rsa/rsa.cpp.o	96ac7c2046050c6b
+2004	2078	1620232079	/Users/neilperry/Desktop/android_c_elgamal_measurements/encrypt/build/intermediates/cmake/debug/obj/armeabi-v7a/libnative-lib.so	b8055662d414730b
